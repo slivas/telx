@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Telx - TV Metrics</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item two-rows">
+                <div class="item-header mb-30">
+                    <p class="item__title mb-6">Available Agents</p>
+                    <p class="item__subtitle font-regular text-grey">Today</p>
+                </div>
+                <p class="text-green text-4xl">5</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-26">
+                    <p class="item__title">Calls in progress</p>
+                </div>
+                <p class="text-green text-xl">6</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-16">
+                    <p class="item__title mb-6">Average handling time</p>
+                    <p class="item__subtitle">Today</p>
+                </div>
+                <p class="text-2xl text-green"><time>03:45</time></p>
+            </div>
+
+            <div class="item two-rows two-cols">
+                <div class="item-header mb-30">
+                    <p class="item__title">Calls in Queue</p>
+                </div>
+                <div class="bg-attention text-center">
+                    <p class="text-4xl">5</p>
+                    <svg class="icon-attention" xmlns="http://www.w3.org/2000/svg" width="46" height="45" fill="none" viewBox="0 0 46 45"><circle cx="22.733" cy="22.462" r="22.431" fill="#fff" fill-opacity=".5"/><path fill="#fff" d="m25.107 6.76-.526 22.497H20.07L19.52 6.76h5.586Zm-5.74 29.397c0-.803.264-1.475.79-2.015.54-.555 1.285-.833 2.234-.833.934 0 1.672.278 2.212.833.54.54.81 1.212.81 2.015 0 .774-.27 1.438-.81 1.993-.54.54-1.278.81-2.212.81-.95 0-1.694-.27-2.235-.81a2.797 2.797 0 0 1-.788-1.993Z"/></svg>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-26">
+                    <p class="item__title">Agents in hold</p>
+                </div>
+                <p class="text-xl text-orange">1</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-16">
+                    <p class="item__title">Average wait time</p>
+                    <p class="item__subtitle">Today</p>
+                </div>
+                <p class="text-2xl text-orange"><time>01:25</time></p>
+            </div>
+
+            <div class="item two-rows three-cols item-start">
+                <div class="item-header mb-20">
+                    <p class="item__title mb-6">Agents Performance</p>
+                    <p class="item__subtitle font-regular text-grey">Current Month</p>
+                </div>
+                <div class="table">
+                    <div class="table-header">
+                        <div class="table-row">
+                            <p>EMPLOYEE</p>
+                            <p>AVAILABILITY</p>
+                            <p>INBOUND CALLS</p>
+                            <p>AHT</p>
+                            <p>IOUTBOUND CALLS </p>
+                        </div>
+                    </div>
+                    <div class="table-body">
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">1</span>
+                                <span>Mike Novak</span>
+                            </p>
+                            <span class="tag tag-green">available</span>
+                            <span class="font-regular text-right">15</span>
+                            <time class="tag tag-green">03:40</time>
+                            <span class="font-regular text-right">3</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">2</span>
+                                <span>Jennifer Mata</span>
+                            </p>
+                            <span class="tag tag-blue">on call</span>
+                            <span class="font-regular text-right">19 </span>
+                            <time class="tag tag-green">03:40</time>
+                            <span class="font-regular text-right">4</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">3</span>
+                                <span>Karen Castilo</span>
+                            </p>
+                            <span class="tag tag-blue">on call</span>
+                            <span class="font-regular text-right">22</span>
+                            <time class="tag tag-orange">04:20</time>
+                            <span class="font-regular text-right">2</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">4</span>
+                                <span>Kyle Daniels</span>
+                            </p>
+                            <span class="tag tag-orange">paused</span>
+                            <span class="font-regular text-right">19</span>
+                            <time class="tag tag-green">03:40</time>
+                            <span class="font-regular text-right">0</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">5</span>
+                                <span>Anna Cole</span>
+                            </p>
+                            <span class="tag tag-red">off-line</span>
+                            <span class="font-regular text-right">22</span>
+                            <time class="tag tag-orange">04:20</time>
+                            <span class="font-regular text-right">2</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">6</span>
+                                <span>Curtis Miller</span>
+                            </p>
+                            <span class="tag tag-red">off-line</span>
+                            <span class="font-regular text-right">19</span>
+                            <time class="tag tag-green">03:20</time>
+                            <span class="font-regular text-right">4</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">7</span>
+                                <span>Karen Castilo</span>
+                            </p>
+                            <span class="tag tag-blue">on call</span>
+                            <span class="font-regular text-right">22</span>
+                            <time class="tag tag-green">03:20</time>
+                            <span class="font-regular text-right">2</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">5</span>
+                                <span>Anna Cole</span>
+                            </p>
+                            <span class="tag tag-red">off-line</span>
+                            <span class="font-regular text-right">22</span>
+                            <time class="tag tag-orange">04:20</time>
+                            <span class="font-regular text-right">2</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">6</span>
+                                <span>Curtis Miller</span>
+                            </p>
+                            <span class="tag tag-red">off-line</span>
+                            <span class="font-regular text-right">19</span>
+                            <time class="tag tag-green">03:20</time>
+                            <span class="font-regular text-right">4</span>
+                        </div>
+                        <div class="table-row">
+                            <p>
+                                <span class="table-row__number">7</span>
+                                <span>Karen Castilo</span>
+                            </p>
+                            <span class="tag tag-blue">on call</span>
+                            <span class="font-regular text-right">22</span>
+                            <time class="tag tag-green">03:20</time>
+                            <span class="font-regular text-right">2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-16">
+                    <p class="item__title">Agents online</p>
+                </div>
+                <p class="text-3xl text-green">12</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-13">
+                    <p class="item__title mb-6">Average handling time</p>
+                    <p class="item__subtitle font-regular text-grey">Today</p>
+                </div>
+                <p class="text-2xl">5</p>
+            </div>
+
+            <div class="item">
+                <div class="item-header mb-16">
+                    <p class="item__title">Agents off-line</p>
+                </div>
+                <p class="text-3xl text-red">3</p>
+            </div>
+
+            <div class="item item-start">
+                <div class="inner-row">
+                    <div class="item-header">
+                        <p class="item__title mb-6">Abandon rate</p>
+                        <p class="item__subtitle">Today</p>
+                    </div>
+                    <span class="text-2xl text-green">6%</span>
+                </div>
+                <div class="inner-row">
+                    <div class="item-header">
+                        <p class="item__title">Total</p>
+                    </div>
+                    <span class="text-2xl text-red">22</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
